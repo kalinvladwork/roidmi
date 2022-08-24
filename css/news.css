@@ -1,0 +1,74 @@
+.pagination {
+    font-family: '微软雅黑';
+    overflow: hidden;
+    padding-top: 12px;
+    text-align: center
+}
+
+.pagination-tab {
+    margin-bottom: 20px
+}
+
+.pagination a,.pagination .page-cur,.pagination .page-prev_g,.pagination .page-prev,.pagination .page-next,.pagination .page-next_g,.pagination .page-break,.pagination .page-skip {
+    text-decoration: none;
+    margin-right: 2px;
+    display: inline-block;
+    font-family: '微软雅黑';
+    height: 22px;
+    line-height: 22px;
+    margin: 0;
+    min-width: 16px;
+    padding: 0 5px;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap
+}
+
+.pagination a,.pagination .page-prev_g,.pagination .page-prev,.pagination .page-next,.pagination .page-next_g,.pagination .page-cur,.pagination .page-break {
+    color: #498B31
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+    color: #545454
+}
+
+.pagination .page-prev_g,.pagination .page-prev,.pagination .page-next,.pagination .page-next_g {
+    width: 36px
+}
+
+.pagination .page-prev {
+    background-position: -0px -38px;
+    padding-left: 16px
+}
+
+.pagination .page-prev_g {
+    background-position: 0 -59px;
+    padding-left: 16px;
+    color: #cbcbcb;
+    font-weight: 400
+}
+
+.pagination .page-next {
+    background-position: 0 0;
+    padding-right: 16px;
+    font-weight: 400
+}
+
+.pagination .page-next_g {
+    background-position: -0px -19px;
+    padding-right: 16px;
+    color: #cbcbcb
+}
+
+.pagination .page-cur {
+    text-decoration: underline;
+    font-weight: 700;
+    color: #545454
+}
+
+.pagination .page-break {
+    border: medium none;
+    background: none transparent;
+    color: #333
+}
